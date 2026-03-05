@@ -45,7 +45,11 @@ export default function Home() {
             </div>
 
       
-            <div className="relative w-full h-[70%] ">
+            <div className="relative w-full h-full overflow-y-scroll">
+                <User_msg/>
+                <Client_msg/>
+                <User_msg/>
+                <Client_msg/>
                 <User_msg/>
                 <Client_msg/>
                 <User_msg/>
@@ -55,7 +59,7 @@ export default function Home() {
             
             </div>
 
-            <div className="w-full h-[15%] ">
+            <div className="w-full h-[12%] p-2">
                 <Type/>
             </div>
 
